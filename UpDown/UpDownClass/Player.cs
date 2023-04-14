@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace UpDown.UpDownClass
 {
-    internal class Player
+    internal static class Player
     {
-        public void player() 
+        public static void player() 
         {
             UpDown upDown= new UpDown();
             int num = NumRand.Num();
